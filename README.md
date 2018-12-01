@@ -28,7 +28,7 @@ const fetchSuccess = users => ({
   payload: users,
 });
 
-const fetchFailure = (err) => ({
+const fetchFailure = err => ({
   type: types.FETCH_FAILURE,
   payload: err,
 });
@@ -45,7 +45,7 @@ export const fetchUsers = () => async (dispatch) => {
 };
 ```
 
-Actions creators look pretty verbose, and you may have a lot of those in every file. Here's what we can do.
+Actions creators look pretty verbose, and you may have a lot of those in each file. Here's what we can do.
 
 ```javascript
 import actionCreator from 'action-creator-redux';
