@@ -63,7 +63,7 @@ const fetchFailure = actionCreator(types.FETCH_FAILURE);
 
 ```
 
-The rest remails the same. This approach implies that you adhere to unified structure of redux action. It means that all the data the action holds is put inside the **payload** property.
+The rest of the code remains the same. This approach implies that you adhere to unified structure of redux action. It means that all the data the action holds is put inside the **payload** property.
 ```javascript
 const fetchSuccess = actionCreator(types.FETCH_SUCCESS);
 fetchSuccess('This is payload');
