@@ -1,4 +1,4 @@
-import { actionCreator } from '../src';
+import actionCreator from '../src';
 
 describe('actionCreator util test suit', () => {
   test('is a function', () => {
