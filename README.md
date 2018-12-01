@@ -1,6 +1,9 @@
 # Redux action creator
 
-It is an unofficial utility function that is designed to reduce verbosity of redux action creators.
+[![Build Status](https://travis-ci.org/MadAppGang/action-creator-redux.svg?branch=master)](https://travis-ci.org/MadAppGang/action-creator-redux)
+[![Coverage Status](https://coveralls.io/repos/github/MadAppGang/action-creator-redux/badge.svg?branch=master)](https://coveralls.io/github/MadAppGang/action-creator-redux?branch=master)
+
+It is an unofficial utility function that is designed to reduce verbosity of redux action creators. It is so simple that can fit into a single line of code, but I think it's nice to have on NPM.
 
 ### Installation
 ```bash
