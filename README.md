@@ -7,10 +7,10 @@ It is an unofficial utility function that is designed to reduce verbosity of red
 
 ### Installation
 ```bash
-npm i --save action-creator-redux
+npm i --save @madappgang/action-creator
 ```
 ```javascript
-import actionCreator from 'action-creator-redux';
+import actionCreator from '@madappgang/action-creator';
 ```
 
 ### Example

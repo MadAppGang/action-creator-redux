@@ -1,5 +1,5 @@
 {
-  "name": "action-creator-redux",
+  "name": "@madappgang/action-creator",
   "version": "1.0.5",
   "description": "A simple utility designed to make redux's action creators less verbose",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
     "test:w": "jest --watch",
     "test:cov": "jest --coverage"
   },
-  "author": "Denys Provodnikov [dprovodnikov] MadAppGang",
+  "author": "MadAppGang",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
