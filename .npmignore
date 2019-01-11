@@ -1,0 +1,5 @@
+__tests__
+src
+node_modules
+.travis.yml
+
